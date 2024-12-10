@@ -84,6 +84,30 @@ rbac-demo/
 
 # Contributors
 - Saloni Srivastava
+
+# How to test
+- Using the login page
+-  Username: Alice Password: admin123 takes you to the admin page
+-  Username: Bob Password: editor123 takes you to the editor page
+-  Username: Charlie Password: viewer123 takes you to the viewer page
+-  Authentication for wrong ID or wrong password and both ID passwords can be checked by entering the wrong details
+-  The URL can be changed to /admin-dashboard to check the protected route that is not accessible
+-  New Users can be added by logging into the admin page
+-  One admin cannot edit his role or status himself
+- Suppose the user is not logged in but changes the URL to https://lk7zmw.csb.app/admin-dashboard he/she will be redirected to the forbidden page
+- If the user state is inactive, the page will be redirected to the inactive page
+
+# Routes are as follows
+```
+/                --this takes you to the login page 
+/admin-dashboard --this takes you to the admin page
+/editor-dashboard --this takes you to the editor page
+/viewer-dashboard --this takes you to the viewer page
+/403              --This redirects you if you try accessing a page you do not have permission for
+/inactive         --this redirects you if the user status is inactive
+```
+
+I have used a protected route for the admin dashboard route so that it is not accessible to all members.
  
 
 
