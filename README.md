@@ -38,31 +38,31 @@ This is a role-based access control (RBAC) application that provides a secure wa
 # **File Structure**
 
 rbac-demo/
-├── public/
-├── src/
-│   ├── components/
-│   |   ├── AdminDashboard.js
-│   │   ├── LoginPage.js
-│   │   ├── InactiveAccount.js
-│   │   └── ProtectedRoute.js
-|   |   ├── LogoutButton.js
-|   ├── styles
-│   ├── App.js
-|   ├── ProtectedRoute.js
-│   ├── index.js
-│   └── styles/
-│       └── App.css
-├── db.json
-└── package.json
+-├── public/
+-├── src/
+-│   ├── components/
+-│   |   ├── AdminDashboard.js
+-│   │   ├── LoginPage.js
+-│   │   ├── InactiveAccount.js
+-│   │   └── ProtectedRoute.js
+-|   |   ├── LogoutButton.js
+-|   ├── styles
+-│   ├── App.js
+-|   ├── ProtectedRoute.js
+-│   ├── index.js
+-│   └── styles/
+-│       └── App.css
+-├── db.json
+-└── package.json
 
-# **How It Works
-# Login Flow**
+# How It Works
+# Login Flow
 - Users log in using their credentials.
 - The app checks the user's role and status.
 - If the status is inactive, redirect to the Inactive Account page.
 - If the role is not authorized, redirect to a 403 - Forbidden page.
 - Successful login redirects users to their respective dashboards.
-# **Admin Dashboard**
+# Admin Dashboard
 - Add User: Opens a popup to add new users. The ID and status are auto-assigned.
 - Update User: Admin can change the role or status of users.
 - Delete User: Admin can delete users except for themselves.
