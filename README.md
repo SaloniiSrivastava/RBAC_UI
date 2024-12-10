@@ -36,7 +36,7 @@ This is a role-based access control (RBAC) application that provides a secure wa
 4. Start the React Application
     - npm start
 # **File Structure**
-
+```
 rbac-demo/
 -├── public/
 -├── src/
@@ -54,6 +54,7 @@ rbac-demo/
 -│       └── App.css
 -├── db.json
 -└── package.json
+```
 
 # How It Works
 # Login Flow
