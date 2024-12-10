@@ -38,22 +38,22 @@ This is a role-based access control (RBAC) application that provides a secure wa
 # **File Structure**
 ```
 rbac-demo/
--├── public/
--├── src/
--│   ├── components/
--│   |   ├── AdminDashboard.js
--│   │   ├── LoginPage.js
--│   │   ├── InactiveAccount.js
--│   │   └── ProtectedRoute.js
--|   |   ├── LogoutButton.js
--|   ├── styles
--│   ├── App.js
--|   ├── ProtectedRoute.js
--│   ├── index.js
--│   └── styles/
--│       └── App.css
--├── db.json
--└── package.json
+├── public/
+├── src/
+│   ├── components/
+│   |   ├── AdminDashboard.js
+│   │   ├── LoginPage.js
+│   │   ├── InactiveAccount.js
+│   │   └── ProtectedRoute.js
+|   |   ├── LogoutButton.js
+|   ├── styles
+│   ├── App.js
+|   ├── ProtectedRoute.js
+│   ├── index.js
+│   └── styles/
+│       └── App.css
+├── db.json
+└── package.json
 ```
 
 # How It Works
