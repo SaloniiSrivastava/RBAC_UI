@@ -1,0 +1,72 @@
+{
+  "roles": [
+    {
+      "id": "1",
+      "name": "admin",
+      "permissions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "editor",
+      "permissions": [
+        "read",
+        "write"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "viewer",
+      "permissions": [
+        "read"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Alice",
+      "role": "admin",
+      "password": "admin123",
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "name": "Bob",
+      "role": "editor",
+      "password": "editor123",
+      "status": "active"
+    },
+    {
+      "id": "3",
+      "name": "Charlie",
+      "role": "viewer",
+      "password": "viewer123",
+      "status": "active"
+    },
+    {
+      "id": "4",
+      "name": "Poo",
+      "role": "admin",
+      "password": "pop123",
+      "status": "inactive"
+    },
+    {
+      "id": "5",
+      "name": "Mohana",
+      "role": "admin",
+      "password": "mohana123",
+      "status": "active"
+    },
+    {
+      "id": "6",
+      "name": "Div",
+      "role": "viewer",
+      "password": "div123",
+      "status": "active"
+    }
+  ]
+}
