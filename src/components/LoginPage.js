@@ -45,7 +45,7 @@ const LoginPage = () => {
             } else if (user.role === 'editor') {
                 navigate('/editor-dashboard'); // Editor dashboard
             } else if (user.role === 'viewer') {
-                navigate('/user-dashboard'); // Viewer dashboard
+                navigate('/viewer-dashboard'); // Viewer dashboard
             } else {
                 setError('Role not defined');
             }
