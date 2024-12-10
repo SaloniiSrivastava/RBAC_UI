@@ -26,7 +26,7 @@ This is a role-based access control (RBAC) application that provides a secure wa
 - API: FetchAPI
 # **Setup Instructions**
 1. Clone the Repository 
-    - git clone <repository-url>
+    - git clone [<repository-url>](https://github.com/SaloniiSrivastava/RBAC_UI.git)
     - cd rbac-demo
 2. Install Dependencies
    - npm install
